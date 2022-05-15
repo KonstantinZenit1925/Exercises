@@ -21,10 +21,7 @@ public class ArrayIndexTest {
         int result = ArrayIndex.getLastElement(in);
         assertThat(result, is(expected));
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
     @Test
     public void getLastElement2() {
         int[] in = {1, 2, 3, 4, 6, 88};
