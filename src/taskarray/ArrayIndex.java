@@ -12,7 +12,6 @@ public class ArrayIndex {
         int rsl = array[0];
         return rsl;
     }
-
     public static int getLastElement(int[] array) {
         int rsl = array[array.length - 1];   // последний элемент массива ЗАПОМНИТЬ!
         return rsl;
